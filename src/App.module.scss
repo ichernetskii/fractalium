@@ -1,0 +1,22 @@
+.selection {
+	position: absolute;
+	border: 1px solid green;
+	pointer-events: none;
+}
+
+.info {
+	position: absolute;
+	padding: 0.4rem 0.4rem 0.4rem 0.8rem;
+	right: 0;
+	top: 0;
+	pointer-events: none;
+	background-color: #7777;
+	text-align: right;
+	font-family: monospace;
+	font-size: 0.75rem;
+	font-weight: bold;
+
+	.number {
+		color: #22f;
+	}
+}
